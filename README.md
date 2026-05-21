@@ -49,7 +49,7 @@ You can install Apache + MariaDB + PHP in a smaller memory VPS by package manage
 |-------------|----------|
 | **Enterprise Linux** | 8 / 9 / 10 (CentOS Stream, RHEL, Rocky Linux, AlmaLinux, Oracle Linux) |
 | **Debian** | 11 / 12 / 13 |
-| **Ubuntu** | 20.04 / 22.04 / 24.04 |
+| **Ubuntu** | 22.04 / 24.04 |
 
 ---
 
@@ -99,7 +99,7 @@ chmod 755 *.sh
 ./lamp.sh
 ```
 
-### Debian 11 ~ 13 / Ubuntu 20.04 ~ 24.04
+### Debian 11 ~ 13 / Ubuntu 22.04 ~ 24.04
 
 ```bash
 # Install dependencies
@@ -137,7 +137,7 @@ dnf update -y php-*
 dnf module switch-to php:remi-8.4
 ```
 
-### Debian 11 ~ 13 / Ubuntu 20.04 ~ 24.04
+### Debian 11 ~ 13 / Ubuntu 22.04 ~ 24.04
 
 ```bash
 # Upgrade Apache
@@ -168,7 +168,7 @@ dnf remove -y MariaDB-*
 dnf remove -y php-*
 ```
 
-### Debian 11 ~ 13 / Ubuntu 20.04 ~ 24.04
+### Debian 11 ~ 13 / Ubuntu 22.04 ~ 24.04
 
 ```bash
 # Remove Apache
@@ -222,7 +222,7 @@ apt-get remove -y php${php_ver}-*
 | MariaDB | `systemctl [start\|stop\|status\|restart] mariadb` |
 | PHP-FPM | `systemctl [start\|stop\|status\|restart] php-fpm` |
 
-### Debian 11 ~ 13 / Ubuntu 20.04 ~ 24.04
+### Debian 11 ~ 13 / Ubuntu 22.04 ~ 24.04
 
 | Process | Command |
 |---------|---------|
